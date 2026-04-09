@@ -1,4 +1,4 @@
-# Protocole de travail IA — sur projet maîtrisé par un non-développeur
+# Protocole de travail IA sur projet maîtrisé par un non-développeur
 
 ## Pourquoi ce protocole existe
 

@@ -1,4 +1,4 @@
-# Protocole de travail IA sur projet maîtrisé par un non-développeur
+# Protocole de travail IA - Claude
 
 ## Pourquoi ce protocole existe
 

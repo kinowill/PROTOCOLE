@@ -1,5 +1,20 @@
 # Changelog
 
+## v1.2 - 2026-04-24
+
+Intégration de GitHub CLI (`gh`) dans le protocole et l'onboarding Claude.
+
+### Ajouts
+- `PROTOCOLE.md` : section 7 enrichie avec des règles d'usage pour `gh`
+  comme outil de workflow GitHub, avec fallback explicite et hygiène
+  d'authentification.
+- `integrations/claude-code.md` : section `gh` ajoutée pour rappeler
+  l'installation, l'auth et les règles de token.
+
+### Changements
+- `README.md` : description de l'intégration Claude mise à jour pour
+  inclure `gh`.
+
 ## v1.1 - 2026-04-09
 
 Ajout de l'auto-monitoring du contexte de l'IA.

@@ -78,6 +78,21 @@ machines. Si tu utilises Claude Code sur plusieurs ordinateurs, garde
 ce dossier `PROTOCOLE/` dans un endroit synchronisé (Drive, Dropbox,
 git privé) et réinjecte manuellement.
 
+## GitHub CLI (`gh`)
+
+Si tes projets passent souvent par GitHub (PR, issues, checks CI,
+releases, API), installe `gh` sur la machine et authentifie-le une fois
+avec `gh auth login`. Une fois `PROTOCOLE.md` chargé, Claude peut
+l'utiliser comme outil préféré pour les actions qui visent GitHub
+directement.
+
+Rappels utiles :
+- vérifier la présence avec `Get-Command gh` ou `where gh` ;
+- vérifier l'authentification avec `gh auth status` ;
+- ne jamais coller un token brut dans `CLAUDE.md`, dans le repo ou dans
+  une commande partagée ;
+- pour les scripts ou la CI, préférer `GH_TOKEN` ou `GITHUB_TOKEN`.
+
 ## Activer l'auto-monitoring du contexte (`show_context.ps1`)
 
 Le protocole (section 12) prévoit que l'IA s'auto-vérifie sur sa
